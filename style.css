@@ -1,0 +1,90 @@
+.layout-title,
+.app-bar,
+.score-meter,
+.goals,
+.content-feed,
+.content-feed-tile,
+.credit-offer {
+  padding: 10px;
+}
+
+.layout__container {
+  font-family: Helvetica, Arial, serif;
+  color: #808080;
+  margin-bottom: 10px;
+}
+
+.layout-title {
+}
+
+.app-bar {
+  background: rgb(77, 36, 97);
+  height: 40px;
+}
+
+.score-meter {
+  background: rgba(77, 36, 97, 0.95);
+  height: 200px;
+}
+
+.goals {
+  border: 1px solid rgb(225, 225, 225);
+  box-sizing: border-box;
+  height: 200px;
+}
+
+.content-feed {
+  background: rgb(242, 242, 242);
+}
+
+.content-feed-row {
+  margin-bottom: 10px;
+}
+
+.content-feed-blah {
+  margin-bottom: 10px;
+}
+
+.credit-education {
+  margin-bottom: 10px;
+}
+
+.credit-education__title {
+  margin-bottom: 10px;
+}
+
+.credit-education__content {
+  background: white;
+  padding: 10px;
+}
+
+.content-feed-title {
+  margin-bottom: 10px;
+}
+
+.content-feed-tile {
+  height: 160px;
+  background: white;
+  border: 1px solid rgb(225, 225, 225);
+}
+
+.building-credit-tile {
+
+}
+
+.icr-tile {
+
+}
+
+.credit-offers {
+}
+
+.credit-offers__title {
+  margin-bottom: 10px;
+}
+
+.credit-offer {
+  background: white;
+  height: 385px;
+  margin-bottom: 10px;
+}
