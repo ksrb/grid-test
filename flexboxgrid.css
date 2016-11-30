@@ -273,10 +273,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .container {
-    width: 49rem;
-  }
-
   .col-sm,
   .col-sm-1,
   .col-sm-2,
@@ -504,10 +500,6 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .container {
-    width: 65rem;
-  }
-
   .col-md,
   .col-md-1,
   .col-md-2,
@@ -735,10 +727,6 @@
 }
 
 @media only screen and (min-width: 75em) {
-  .container {
-    width: 76rem;
-  }
-
   .col-lg,
   .col-lg-1,
   .col-lg-2,
