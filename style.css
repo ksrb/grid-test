@@ -8,6 +8,12 @@
   padding: 10px;
 }
 
+@media only screen and (max-width: 48em) {
+  .col-xs-hide {
+    display: none;
+  }
+}
+
 .layout__container {
   font-family: Helvetica, Arial, serif;
   color: #808080;
@@ -37,14 +43,6 @@
   background: rgb(242, 242, 242);
 }
 
-.content-feed-row {
-  margin-bottom: 10px;
-}
-
-.content-feed-blah {
-  margin-bottom: 10px;
-}
-
 .credit-education {
   margin-bottom: 10px;
 }
@@ -66,6 +64,7 @@
   height: 160px;
   background: white;
   border: 1px solid rgb(225, 225, 225);
+  margin-bottom: 10px;
 }
 
 .building-credit-tile {
