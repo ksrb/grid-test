@@ -4,14 +4,10 @@
 .goals,
 .content-feed,
 .content-feed-tile,
-.credit-offer {
+.credit-offer,
+.accounts,
+.account-detail {
   padding: 10px;
-}
-
-@media only screen and (max-width: 48em) {
-  .col-xs-hide {
-    display: none;
-  }
 }
 
 .layout__container {
@@ -85,5 +81,42 @@
 .credit-offer {
   background: white;
   height: 385px;
+  margin-bottom: 10px;
+}
+
+.accounts {
+}
+
+.accounts-title {
+  margin-bottom: 10px;
+}
+
+.account-list__item {
+  padding: 10px;
+  background: white;
+  border: 1px solid rgb(225, 225, 225);
+}
+
+.account-list__item:not(:last-child) {
+  border-bottom: none;
+}
+
+.account-detail {
+  background: white;
+}
+
+.account-detail__title {
+  margin-bottom: 10px;
+}
+
+.account-detail__meter {
+  margin-bottom: 10px;
+}
+
+.account-detail__bureau-reported-balance {
+  margin-bottom: 10px;
+}
+
+.account-detail__user-entered-balance {
   margin-bottom: 10px;
 }

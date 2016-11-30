@@ -266,7 +266,13 @@
   order: 1;
 }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (max-width: 768px) {
+  .col-xs-hide {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .container {
     width: 49rem;
   }
@@ -497,7 +503,7 @@
   }
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 1024px) {
   .container {
     width: 65rem;
   }
