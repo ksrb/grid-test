@@ -2,7 +2,6 @@
 .app-bar,
 .score-meter,
 .goals,
-.content-feed,
 .content-feed-tile,
 .credit-offer,
 .accounts,
@@ -10,10 +9,9 @@
   padding: 10px;
 }
 
-.layout__container {
+.layout-container {
   font-family: Helvetica, Arial, serif;
   color: #808080;
-  margin-bottom: 10px;
 }
 
 .layout-title {
@@ -37,6 +35,7 @@
 
 .content-feed {
   background: rgb(242, 242, 242);
+  padding: 10px;
 }
 
 .credit-education {
