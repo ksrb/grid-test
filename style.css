@@ -1,4 +1,5 @@
 .layout-container {
+  max-width: 1200px;
   font-family: Helvetica, Arial, serif;
   color: #808080;
 }
@@ -28,7 +29,7 @@
 
 .content-feed {
   background: rgb(242, 242, 242);
-  padding: 10px;
+  padding: 10px 20px;
 }
 
 .credit-education {
@@ -40,6 +41,7 @@
 }
 
 .credit-education__content {
+  border: 1px solid rgb(225, 225, 225);
   background: white;
   padding: 10px;
 }
@@ -56,23 +58,36 @@
   padding: 10px;
 }
 
-.credit-offers {
-  padding: 10px;
-}
-
 .credit-offers__title {
   margin-bottom: 10px;
 }
 
-.credit-offer {
-  background: white;
-  height: 385px;
-  margin-bottom: 10px;
-  padding: 10px;
+.credit-offers {
+  display: flex;
+  overflow-x: scroll;
 }
 
-.accounts {
+.credit-offer {
+  flex: 0 0 calc(100% - 20px);
+  box-sizing: border-box;
+  margin-right: 10px;
   padding: 10px;
+  height: 400px;
+  background: white;
+  border: 1px solid rgb(225, 225, 225);
+}
+
+
+@media only screen and (min-width: 600px) {
+  .credit-offer {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .credit-offer {
+    flex: 0 0 calc(33% - 20px);
+  }
 }
 
 .accounts-title {
@@ -108,4 +123,12 @@
 
 .account-detail__user-entered-balance {
   margin-bottom: 10px;
+}
+
+.offers {
+
+}
+
+.offer {
+
 }
