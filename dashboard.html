@@ -1,73 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+
   <title>Dashboard</title>
   <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet"
-        type="text/css"
-        href="flexboxgrid.css">
+  <link rel="stylesheet" type="text/css" href="flexboxgrid.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
-<div class='container layout-container'>
-  <div class='app-bar'>
-    App Bar
-  </div>
-  <div class='score-meter'>
-    Score Meter
-  </div>
-  <div class='goals'>
-    Goals
-  </div>
-  <!-- Content feed -->
-  <div class='content-feed'>
-    <div class='row'>
-      <div class='col-lg-6 col-md-6 col-sm-6 col-xs-6'>
-        <div class='content-feed-tile'>
-          Building Credit
-        </div>
-      </div>
-      <div class='col-lg-6 col-md-6 col-sm-6 col-xs-6'>
-        <div class='content-feed-tile'>
-          Interactive Credit Report
-        </div>
-      </div>
+  <div class='container layout-container'>
+    <div class='app-bar'>
+      App Bar
     </div>
-    <!-- TODO (ksuen): this isn't exactly how our app is structured the title
-    and offers are a separate elements on the level above -->
-    <div class='credit-offers__title'>
-      Current Credit Offers
+    <div class='score-meter'>
+      Score Meter
     </div>
-    <div class='credit-offers'>
-      <div class='credit-offer'>
-        Offer 1
-      </div>
-      <div class='credit-offer'>
-        Offer 2
-      </div>
-      <div class='credit-offer'>
-        Offer 3
-      </div>
-      <div class='credit-offer'>
-        Offer 4
-      </div>
-      <div class='credit-offer'>
-        Offer 5
-      </div>
-      <div class='credit-offer'>
-        Offer 6
-      </div>
-      <div class='credit-offer'>
-        Offer 7
-      </div>
+
+    <div class='goals-container'>
+      Goals
+    </div>
+
+    <div class='content-feed-container'>
+      <div class='content-feed-item'>Content Feed Item</div>
+      <div class='content-feed-item'>Content Feed Item</div>
+      <div class='content-feed-item'>Content Feed Item</div>
+    </div>
+
+    <div class='offer-list-container'>
+      <div class='offer-list-spacer'>&nbsp;</div>
+      <div class='offer-list-item'>Offer 1</div>
+      <div class='offer-list-item'>Offer 2</div>
+      <div class='offer-list-item'>Offer 3</div>
+      <div class='offer-list-item'>Offer 4</div>
+      <div class='offer-list-item'>Offer 5</div>
+      <div class='offer-list-item'>Offer 6</div>
+      <div class='offer-list-item'>Offer 7</div>
+      <div class='offer-list-spacer'>&nbsp;</div>
     </div>
   </div>
-</div>
-</div>
-<script id="__bs_script__">
-  document.write("<script async src='http://HOST:3001/browser-sync/browser-sync-client.js?v=2.18.2'><\/script>".replace("HOST", location.hostname));
-</script>
+
+  </div>
+  <script id="__bs_script__">
+    document.write("<script async src='http://HOST:3001/browser-sync/browser-sync-client.js?v=2.18.2'><\/script>".replace("HOST", location.hostname));
+  </script>
 </body>
+
 </html>
