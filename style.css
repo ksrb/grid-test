@@ -28,6 +28,7 @@ body {
 
 .page-title {
   padding: 10px;
+  background: white;
 }
 
 .score-meter-container {
@@ -106,17 +107,6 @@ body {
   border: 1px solid #C1BBB6;
 }
 
-
-
-
-.icr-container {
-
-}
-
-.tabs {
-
-}
-
 .tabs-headers {
   box-sizing: border-box;
   height: 50px;
@@ -147,22 +137,10 @@ body {
   border-bottom: 5px solid #829F3F;
 }
 
-.tabs-contents {
-
-}
-
-.tab-content {
-
-}
-
 .icr-account {
   box-sizing: border-box;
   margin: 0 0 16px;
   background: white;
-}
-
-.icr-account-menu-container {
-
 }
 
 .icr-account-menu-item {
@@ -181,6 +159,33 @@ body {
 .icr-offers {
   box-sizing: border-box;
   margin: 16px 0 0;
+}
+
+.compare-container {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  background: white;
+}
+
+.compare-header {
+  width: 150px;
+  padding: 10px;
+  background: #CCCCCC;
+}
+
+.compare-table {
+  width: 100%;
+  display:flex;
+  flex-direction:row;
+  overflow:hidden;
+}
+
+.compare-item {
+  box-sizing: border-box;
+  min-width: 50%;
+  padding: 10px;
+  border-right: 1px solid #333333;
 }
 
 
@@ -238,32 +243,6 @@ body {
   height: 400px;
   background: white;
   border: 1px solid rgb(225, 225, 225);
-}
-
-.compare-container {
-  height: 600px;
-  display: flex;
-  flex-direction: row;
-}
-
-.compare-header {
-  width: 150px;
-  padding: 10px;
-  background: #CCCCCC;
-}
-
-.compare-table {
-  width: 100%;
-  display:flex;
-  flex-direction:row;
-  overflow:hidden;
-}
-
-.compare-item {
-  box-sizing: border-box;
-  min-width: 50%;
-  padding: 10px;
-  border-right: 1px solid #333333;
 }
 
 
