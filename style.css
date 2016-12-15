@@ -22,19 +22,31 @@ body {
 }
 
 .app-bar {
-  background: rgb(77, 36, 97);
-  height: 40px;
+  background: #4C275F;
+  height: 50px;
+}
+
+.page-title {
   padding: 10px;
+}
+
+.score-meter-container {
+  display: flex;
+  background: #654277;
+  height: 200px;
+  justify-content: center;
 }
 
 .score-meter {
-  background: rgba(77, 36, 97, 0.95);
-  height: 200px;
-  padding: 10px;
-}
-
-.score-meter--mini {
-  height: 50px;
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+  color: white;
+  font-size: 60px;
+  line-height: 150px;
+  text-align: center;
+  border: 10px solid white;
+  border-radius: 100px;
 }
 
 .goals-container {
@@ -166,6 +178,11 @@ body {
   border-left: 1px solid #C1BBB6;
 }
 
+.icr-offers {
+  box-sizing: border-box;
+  margin: 16px 0 0;
+}
+
 
 
 
@@ -255,6 +272,26 @@ body {
 
 
 
+@media only screen and (orientation: landscape) {
+  .score-meter-container {
+    display: block;
+    height: 50px;
+  }
+
+  .score-meter {
+    width: 600px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+    border: 0;
+  }
+}
+
+
+
+
 @media only screen and (max-width: 768px) {
   .tabs-headers div:nth-child(n+3) {
     display: none;
@@ -329,6 +366,10 @@ body {
   .offer-list-item {
     min-width: calc(33.33% - 21.333px);
     max-width: calc(33.33% - 21.333px);
+  }
+
+  .icr-offers {
+    margin: 24px 0 0;
   }
 }
 
