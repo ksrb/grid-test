@@ -177,9 +177,6 @@ body {
 
 
 
-.content-feed {
-  padding: 10px 20px;
-}
 
 .credit-education {
   margin-bottom: 10px;
@@ -224,41 +221,6 @@ body {
   height: 400px;
   background: white;
   border: 1px solid rgb(225, 225, 225);
-}
-
-.accounts-title {
-  margin-bottom: 10px;
-}
-
-.account-list__item {
-  padding: 10px;
-  background: white;
-  border: 1px solid rgb(225, 225, 225);
-}
-
-.account-list__item:not(:last-child) {
-  border-bottom: none;
-}
-
-.account-detail {
-  background: white;
-  padding: 10px;
-}
-
-.account-detail__title {
-  margin-bottom: 10px;
-}
-
-.account-detail__meter {
-  margin-bottom: 10px;
-}
-
-.account-detail__bureau-reported-balance {
-  margin-bottom: 10px;
-}
-
-.account-detail__user-entered-balance {
-  margin-bottom: 10px;
 }
 
 .compare-container {
@@ -368,11 +330,6 @@ body {
     min-width: calc(33.33% - 21.333px);
     max-width: calc(33.33% - 21.333px);
   }
-
-  .icr-account {
-    margin: 24px;
-    border: 1px solid #C1BBB6;
-  }
 }
 
 
@@ -414,11 +371,20 @@ body {
   }
 
   .icr-account {
-    max-width: 1232px;
-    margin: 24px auto 24px;;
+    max-width: 1248px;
+    margin: 16px auto;
+    border: 1px solid #C1BBB6;
   }
 
   .credit-offer {
     flex: 0 0 calc(33% - 20px);
+  }
+}
+
+
+
+@media only screen and (min-width: 1920px) {
+  .icr-account {
+    margin: 24px auto;
   }
 }
